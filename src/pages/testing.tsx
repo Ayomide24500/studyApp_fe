@@ -2,7 +2,6 @@ import React, { FC, useState } from "react";
 import axios from "axios";
 import { Toaster } from "react-hot-toast";
 import toast from "react-hot-toast/headless";
-// import { createStudys } from "../Api/Api";
 import { useNavigate } from "react-router-dom";
 interface iToggle {
   isOpen: any;
